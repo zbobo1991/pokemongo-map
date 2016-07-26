@@ -1,4 +1,5 @@
 # pokemongo-map
+[![Language (Node.js)](https://img.shields.io/badge/powered_by-Node.js-red.svg?style=flat-square)](https://nodejs.org/)
 
 A more fast, smaller command-line interface application for Pokèmon GO, showing nearby pokemons on map. Inspired by Python demo: [tejado](https://github.com/tejado/pokemongo-api-demo)
 
