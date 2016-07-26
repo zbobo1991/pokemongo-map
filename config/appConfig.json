@@ -1,0 +1,14 @@
+{
+  "playerInfo":{},
+  "token":"",
+  "location":{
+    "lat":0,
+    "lng":0
+  },
+  "endpoint":"",
+  "pokemonConfig":[],
+  "nearByPokemons":[],
+  "distance":0.0025,
+  "resultHtml":"pokemonMap.html",
+  "GOOGLE_MAP_API": "REPLACE_WITH_YOUR_GOOGLE_MAP_API_KEY"
+}
