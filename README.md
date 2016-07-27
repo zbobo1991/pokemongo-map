@@ -20,7 +20,7 @@ Support platform for now:
 * MacOS
 * Windows10
 
-###### When this project is built on windows 10, if there is a 'node-gyp rebuild' error, please follow these steps:
+###### When build this project on windows 10, if there is a 'node-gyp rebuild' error, please follow these steps:
 
   1. download Microsoft Build Tools 2015 and install. https://www.microsoft.com/en-us/download/confirmation.aspx?id=48159
   2. find the nodejs path in the computer, normally C:\Program Files\nodejs\
