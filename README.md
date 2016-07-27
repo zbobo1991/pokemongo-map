@@ -18,16 +18,21 @@ Support platform for now:
 
 * Linux
 * MacOS
+* Windows10
 
+###### When this project is built on windows 10, if there is a 'node-gyp rebuild' error, please follow these steps:
 
-Windows 10 are not supported yet due to the 'node-gyp rebuild' error on windows, check the issue [here](https://github.com/nodejs/node-gyp/issues/629).<br>
+  1. download Microsoft Build Tools 2015 and install. https://www.microsoft.com/en-us/download/confirmation.aspx?id=48159
+  2. find the nodejs path in the computer, normally C:\Program Files\nodejs\
+  3. go to \node_modules\npm
+  4. open a windows shell using admin access
+  5. run command:
+  ```
+  npm install node-gyp@latest
+  ```  
+  6. done.
 
-some useful information:
-* https://github.com/nodejs/node-gyp
-* https://github.com/nodejs/node-gyp/issues/809
-* https://github.com/nodejs/node-gyp/issues/629
-
-Windows 7 : not tested yet.
+* Windows 7 : not tested yet.
 
 TODO: make windows working.
 
